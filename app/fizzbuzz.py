@@ -1,5 +1,5 @@
 
-
+# This fizzbuzz file is in the app directory
 
 class Fizzbuzz:
 
@@ -13,6 +13,7 @@ class Fizzbuzz:
             return True
         else:
             return False
+
     def _fizzbuzz_iterator(self):
 
         for num in self.fizzrange:
@@ -25,4 +26,4 @@ class Fizzbuzz:
             else:
                 self.fizzbuzz_list.append(num)
 
-
+#print(Fizzbuzz(1,10).fizzbuzz_list)
