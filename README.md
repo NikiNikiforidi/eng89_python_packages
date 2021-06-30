@@ -20,12 +20,18 @@ program.py
 setup.py
 
 ```
+#### __init__.py
+`# __init__.py is in app directory`
 
-#### setup.py file:
+
+#### setup.py file
 
 ```
-from setuptools import setup # Built in package to create aything and everything related to this module 
+# setup.py file is not in app directory
 
+
+# Built in package to create aything and everything related to this module 
+from setuptools import setup
 
 # Lets add some information about the package
 
