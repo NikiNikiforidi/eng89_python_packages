@@ -29,6 +29,7 @@ setup.py
 ```
 # setup.py file is not in app directory
 
+from setuptools import setup
 
 # Built in package to create aything and everything related to this module 
 from setuptools import setup
