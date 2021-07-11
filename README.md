@@ -5,9 +5,9 @@
 **Definition:** Python packages are a way to structure python programs in a form to be reused and included in other programs 
 - A link to python packages information: [Python-Packaging](https://python-packaging.readthedocs.io/en/latest/minimal.html)
 
-- Step 1 `Create an app folder`
-- Step 2 inside app folder`__init__.py` leave it empty - to initialise our package
-- Step 3 inside app folder `fizzbuzz.py`- to add our functionality
+- Step 1 `Create an app directory`
+- Step 2 inside app directory`__init__.py` leave it empty - to initialise our package
+- Step 3 inside app directory `fizzbuzz.py`- to add our functionality
 - Step 4 `program.py` on dir level - to use to run file 
 - `setup.py` on a dir level - to describe our module details such as version, author and content details
 
